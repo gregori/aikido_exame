@@ -78,11 +78,11 @@ title: Faixa Amarela
 
 > _30 treinos normais, 15 treinos armas, 4 limpezas no dojo, 1 evento._
 
-| ATAQUES         | IKKYO   | SHIHO | SUMI OTOSHI | IRMI   | KOKYU-HO |
+| ATAQUES         | IKKYŌ   | SHIHŌ | SUMI OTOSHI | IRMI   | KOKYŪ-HŌ |
 |-----------------|---------|-------|-------------|--------|-----------|
 | SHOMEN-UCHI     | TACHI   |       |             | TACHI  |           |
 | SHOMEN-UCHI     | SUWARI  |       |             |        |           |
 | YOKOMEN-UCHI    | TACHI   |       |             | TACHI  |           |
 |                 |         |       |             |        |           |
-| KATATE-TORI     |         | TACHI | TACHI       |        |           |
+| KATATE-DORI     |         | TACHI | TACHI       |        |           |
 | RYOTE-DORI      |         | TACHI | TACHI       |        | SUWARI    |

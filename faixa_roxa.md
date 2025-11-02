@@ -63,10 +63,10 @@
 
 > _40 treinos normais, 20 treinos armas, 5 limpezas no dojo, 2 eventos, 1 uke._
 
-| ATAQUES       | NIKYO  | IRIMI  | UDE-KIME | KOKYU-HO |
+| ATAQUES       | NIKYŌ  | IRIMI  | UDE-KIME | KOKYŪ-HŌ |
 |---------------|--------|--------|----------|-----------|
 | SHOMEN-UCHI   | TACHI  |        | TACHI    |           |
 | SHOMEN-UCHI   | SUWARI |        |          |           |
 | YOKOMEN-UCHI  | TACHI  |        | TACHI    |           |
-| KATATE-TORI   |        | TACHI  | TACHI    |           |
+| KATATE-DORI   |        | TACHI  | TACHI    |           |
 | RYOTE-DORI    |        | TACHI  | TACHI    | SUWARI    |
