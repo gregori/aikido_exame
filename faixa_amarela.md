@@ -1,3 +1,9 @@
+---
+layout: default
+title: Faixa Amarela
+---
+
+
 # INSTITUTO TACHIBANA DE AIKIDO  
 <center>Material de estudo para faixa amarela</center>
 
