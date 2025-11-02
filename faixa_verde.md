@@ -54,13 +54,13 @@
 
 ## 4. JŌ / KEN
 
-- **Renzoku uchikomi**  
-- **Shōmen uchi gedan gaeshi**  
-- **Shōmen uchi ushiro tsuki**  
-- **Gyaku yokomen uchi ushiro tsuki**  
-- **Katate gedan gaeshi**  
-- **Katate toma uchi**  
-- **Katate hachi no ji gaeshi**  
+- **Renzoku uchikomi** = cortes contínuos
+- **Shōmen uchi gedan gaeshi**  = corte na cabeça com defesa baixa
+- **Shōmen uchi ushiro tsuki**  = corte na cabeça com estocada para trás
+- **Gyaku yokomen uchi ushiro tsuki**  = corte lateral invertido com estocada para trás
+- **Katate gedan gaeshi** = defesa baixa com uma mão  
+- **Katate toma uchi**  = corte em longa distância com uma mão
+- **Katate hachi no ji gaeshi**  =  defesa em oito com uma mão
 - **Oito cortes com o boken**
 
 ## 5. TÉCNICAS
