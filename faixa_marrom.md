@@ -35,26 +35,26 @@
 
 ## 2. JŌ NO SUBURI
 
-- Choku tsuki = estocada reta 
-- Kaeshi tsuki = estocada de retorno 
-- Ushiro tsuki = estocada para trás 
-- Tsuki gedan gaeshi  = estocada baixa de retorno
-- Tsuki jōdan gaeshi  = estocada alta de retorno
-- Shōmen uchikomi  = golpe frontal descendente
-- Renzoku uchikomi  = golpes contínuos
-- Shōmen uchi gedan gaeshi  = golpe na cabeça com defesa baixa
-- Shōmen uchi ushiro tsuki  = golpe na cabeça com estocada para trás
-- Gyaku yokomen uchi ushiro tsuki  = golpe lateral invertido com estocada para trás
-- Katate gedan gaeshi = defesa baixa com uma mão  
-- Katate toma uchi  = golpe em longa distância com uma mão
-- Katate hachi no ji gaeshi = defesa em oito com uma mão  
-- Hassō gaeshi uchi  = base hassō com golpe descendente
-- Hassō gaeshi tsuki  = base hassō com estocada
-- Hassō gaeshi ushiro tsuki  = base hassō com estocada para trás
-- Hassō gaeshi ushiro uchi  = base hassō com golpe para trás
-- Hassō gaeshi ushiro barai  = base hassō com varredura para trás
-- Hidari nagare yokomen uchi  = fluxo esquerdo com golpe lateral
-- Migi nagare gaeshi tsuki  = fluxo direito com estocada de retorno
+- **Choku tsuki** = estocada reta 
+- **Kaeshi tsuki** = estocada de retorno 
+- **Ushiro tsuki** = estocada para trás 
+- **Tsuki gedan gaeshi** = estocada baixa de retorno
+- **Tsuki jōdan gaeshi** = estocada alta de retorno
+- **Shōmen uchikomi** = golpe frontal descendente
+- **Renzoku uchikomi** = golpes contínuos
+- **Shōmen uchi gedan gaeshi** = golpe na cabeça com defesa baixa
+- **Shōmen uchi ushiro tsuki** = golpe na cabeça com estocada para trás
+- **Gyaku yokomen uchi ushiro tsuki** = golpe lateral invertido com estocada para trás
+- **Katate gedan gaeshi** = defesa baixa com uma mão  
+- **Katate toma uchi** = golpe em longa distância com uma mão
+- **Katate hachi no ji gaeshi** = defesa em oito com uma mão  
+- **Hassō gaeshi uchi** = base hassō com golpe descendente
+- **Hassō gaeshi tsuki** = base hassō com estocada
+- **Hassō gaeshi ushiro tsuki** = base hassō com estocada para trás
+- **Hassō gaeshi ushiro uchi** = base hassō com golpe para trás
+- **Hassō gaeshi ushiro barai** = base hassō com varredura para trás
+- **Hidari nagare yokomen uchi** = fluxo esquerdo com golpe lateral
+- **Migi nagare gaeshi tsuki** = fluxo direito com estocada de retorno
 
 ---
 

@@ -38,12 +38,12 @@
 
 ## 3. JŌ NO SUBURI
 
-- **Hassō gaeshi uchi**  = base hassō com corte descendente
+- **Hassō gaeshi uchi**  = base hassō com golpe descendente
 - **Hassō gaeshi tsuki**  = base hassō com estocada
 - **Hassō gaeshi ushiro tsuki**  = base hassō com estocada para trás
-- **Hassō gaeshi ushiro uchi**  = base hassō com corte para trás
+- **Hassō gaeshi ushiro uchi**  = base hassō com golpe para trás
 - **Hassō gaeshi ushiro barai**  = base hassō com varredura para trás
-- **Hidari nagare yokomen uchi**  = fluxo esquerdo com corte lateral
+- **Hidari nagare yokomen uchi**  = fluxo esquerdo com golpe lateral
 - **Migi nagare gaeshi tsuki**  = fluxo direito com estocada de retorno
 - Esquiva com três ukes atacando shōmen e tsuki  
 - Realizar **shukko tenkan**

@@ -5,12 +5,12 @@
 
 |                                             |                                             |
 |---------------------------------------------|---------------------------------------------|
-| - **Maai** = distância segura entre uke e nague       | - **Minassan** = A todos                     |
-| - **Deaai** = aproximação entre uke e nague           | - **Itikyo (ude osae)** = desequilibrar pelo braço |
-| - **Atemi** = atingir oponente, tirar-lhe a atenção   | - **Nikyo (kote mawashi)** = girar o pulso   |
-| - **Shizentai** = postura neutra                     | - **Sankyo (kote ineri)** = torcer o pulso   |
-| - **Saika tandem** = local onde gera energia         | - **Yonkyo (tekubi osae)** = controlar pulso com pressão |
-|                                                   | - **Gokyo (ude nobashi)** = esticar alongando o pulso |
+| - **Maai** = distância segura entre uke e nague       | - **Minasan** = todos, a todos                 |
+| - **Deai** = aproximação entre uke e nague           | - **Ikkyō (ude osae)** = desequilibrar pelo braço |
+| - **Atemi** = atingir oponente, tirar-lhe a atenção   | - **Nikyō (kote mawashi)** = girar o pulso   |
+| - **Shizentai** = postura neutra                     | - **Sankyō (kote ineri)** = torcer o pulso   |
+| - **Saika tandem** = local onde gera energia         | - **Yonkyō (tekubi osae)** = controlar pulso com pressão |
+|                                                   | - **Gokyō (ude nobashi)** = esticar alongando o pulso |
 
 ## 2. CONTAGEM DE 1 ATÉ 30
 
@@ -34,12 +34,12 @@
 - **Mae ukemi** = queda para frente  
 - **Mae kaiten ukemi** = queda rolando para frente  
 - **Mae yoko ukemi** = queda lateral para frente  
-- **Shukko** = andar de joelhos  
+- **Shikkō** = andar de joelhos  
 
 ## Posturas
 
 - **Seiza** = sentado sobre as pernas  
-- **Zazen** = sentado com as pernas cruzadas  
+- **Agura** = sentado com as pernas cruzadas  
 - **Tachi** = em pé  
 - **Suwari** = ajoelhado  
 - **Mae** = frente  
@@ -54,12 +54,12 @@
 
 ## 4. JŌ / KEN
 
-- **Renzoku uchikomi** = cortes contínuos
-- **Shōmen uchi gedan gaeshi**  = corte na cabeça com defesa baixa
-- **Shōmen uchi ushiro tsuki**  = corte na cabeça com estocada para trás
-- **Gyaku yokomen uchi ushiro tsuki**  = corte lateral invertido com estocada para trás
+- **Renzoku uchikomi** = golpes contínuos
+- **Shōmen uchi gedan gaeshi**  = golpe na cabeça com defesa baixa
+- **Shōmen uchi ushiro tsuki**  = golpe na cabeça com estocada para trás
+- **Gyaku yokomen uchi ushiro tsuki**  = golpe lateral invertido com estocada para trás
 - **Katate gedan gaeshi** = defesa baixa com uma mão  
-- **Katate toma uchi**  = corte em longa distância com uma mão
+- **Katate toma uchi**  = golpe em longa distância com uma mão
 - **Katate hachi no ji gaeshi**  =  defesa em oito com uma mão
 - **Oito cortes com o boken**
 
@@ -69,7 +69,7 @@
 
 > _50 treinos normais, 25 treinos armas, 6 limpezas no dojo, 3 eventos, 2 uke._
 
-| ATAQUES       | SANKYŌ | SHIHŌ (1) | SUMI OTOSHI (1) | IRIMI (1) | UDE KIME (1) | KOTE GAESHI | KOKYŪ | TENCHI | KOKYŪ-HŌ |
+| ATAQUES       | SANKYŌ | SHIHŌ | SUMI OTOSHI | IRIMI | UDE KIME | KOTE GAESHI | KOKYŪ | TENCHI | KOKYŪ-HŌ |
 |---------------|--------|-----------|------------------|-----------|--------------|--------------|--------|--------|-----------|
 | SHOMEN-UCHI   | TACHI  | TACHI     | TACHI            |           |              | TACHI        | TACHI  |        |           |
 | SHOMEN-UCHI   | SUWARI |           |                  |           |              |              |        |        |           |
