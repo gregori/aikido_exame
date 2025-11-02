@@ -51,6 +51,7 @@ title: Faixa Amarela
 - **Ayumi ashi** = Caminhar normal  
 
 
+
 | TERMINOLOGIA DAS POSIÇÕES  |
 |-----------------------|
 | - **Hidari kamae** = Posição inicial esquerdo |  
@@ -69,8 +70,6 @@ title: Faixa Amarela
 | - **Boken** = Espada   |
 | - **Jo** = Bastão   |
 | - **Tantō** = Faca   |
-  </div>
-</div>
 
 
 ## 7. TÉCNICAS
