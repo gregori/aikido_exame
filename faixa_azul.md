@@ -3,7 +3,7 @@
 
 ## 1. VOCABULÁRIO / DEMONSTRAÇÕES
 
-- **Kata sodedori** = aprisionamento na manga  
+- **Kata dori** = aprisionamento na manga (ombro)
 - **Katate dori** = aprisionar um braço  
 - **Ryō katate dori** = segurar os dois braços do uke  
 - **Ryō kata sodetori** = segurar as duas mangas do uke  
@@ -63,6 +63,6 @@
 | KATATE-DORI      | TACHI     | TACHI     | TACHI      | TACHI  |           |                  |           |            | TACHI       | TACHI       |              | TACHI     |            |
 | MOROTE-DORI      | TACHI     | TACHI     | TACHI      | TACHI  |           |                  |           |            | TACHI       |             |              |           |            |
 | RYŌTE-DORI       | TACHI     | TACHI     | TACHI      | TACHI  |           |                  |           |            | TACHI       | TACHI       |              |           | SUWARI     |
-| KATA SODE DORI   |           |           |            | TACHI  | TACHI     | TACHI            | TACHI     |            |             |             |              |           |            |
+| KATA DORI   |           |           |            | TACHI  | TACHI     | TACHI            | TACHI     |            |             |             |              |           |            |
 | KATA KUBI DORI   |           |           |            | TACHI  | TACHI     | TACHI            | TACHI     | TACHI      |             |             |              |           |            |
 | KATA MUNE DORI   |           |           |            | TACHI  | TACHI     |                  | TACHI     |            |             |             |              |           |            |
