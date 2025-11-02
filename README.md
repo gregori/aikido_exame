@@ -4,3 +4,4 @@
 * [Faixa Roxa](faixa_roxa.md)
 * [Faixa Verde](faixa_verde.md)
 * [Faixa Azul](faixa_azul.md)
+* [Faixa Marrom](faixa_marrom.md)
