@@ -21,9 +21,6 @@ title: Faixa Amarela
 | - **Kōhai** = aluno menos experiente  | - **Itadakimasu** = Vamos nos servir  |
 | - **Gomen'nasai** = Desculpe quando comete um erro       | - **Gochisōsama deshita** = Obrigado pela refeição      |
 
-<div style="display: flex; gap: 20px;">
-  <div style="flex: 1;">
-
 ## 2. CONTAGEM DE 1 ATÉ 10
 
 
@@ -53,8 +50,6 @@ title: Faixa Amarela
 - **Tsugi ashi** = deslocamento iniciando com a perna de trás  
 - **Ayumi ashi** = Caminhar normal  
 
-  </div>
-  <div style="flex: 1;">
 
 | TERMINOLOGIA DAS POSIÇÕES  |
 |-----------------------|
