@@ -78,7 +78,7 @@
 
 > _70 treinos normais, 15 treinos graduados, 35 treinos armas, 6 limpezas no dojo, 5 eventos, 4 participação como uke._
 
-| ATAQUES               | IKKYŌ | NIKYŌ | SANKYŌ | YONKYŌ | GOKYŌ | SHIHŌ | KOTE GAESHI | IRIMI | UDE KIME | KOKYŪ | KAITEN | TENCHI | UDE GARAMI | KIRI OTOSHI | KOSHI NAGE | JIŪ WAZA | KOKYŪ-HŌ |
+| ATAQUES               | IKKYŌ | NIKYŌ | SANKYŌ | YONKYŌ | GOKYŌ | SHIHŌ | KOTE GAESHI | IRIMI | UDE KIME | KOKYŪ | KAITEN | TENCHI | UDE GARAMI | KIRI OTOSHI | KOSHI NAGE | JIYŪ WAZA | KOKYŪ-HŌ |
 |------------------------|--------|--------|--------|--------|--------|--------|--------------|--------|-----------|--------|--------|--------|-------------|--------------|-------------|-----------|-----------|
 | SHŌMEN-UCHI            |        |        |        |        | TACHI  |        |              |        |           |        |        |        |             |              | TACHI       |           |           |
 | SHŌMEN-UCHI            |        |        |        |        |        |        |              |        |           |        |        |        |             |              |             |           |           |

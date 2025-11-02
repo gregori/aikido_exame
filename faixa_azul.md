@@ -54,7 +54,7 @@
 
 > _60 treinos normais, 30 treinos armas, 6 limpezas no dojo, 4 eventos, 3 uke._
 
-| ATAQUES         | IKKYŌ | NIKYŌ | SANKYŌ | YONKYŌ | SHIHŌ | KOTE GAESHI | IRIMI | KOKYŪ | KAITEN | UDE GARAMI | KIRI OTOSHI | JIŪ WAZA | KOKYŪ-HŌ |
+| ATAQUES         | IKKYŌ | NIKYŌ | SANKYŌ | YONKYŌ | SHIHŌ | KOTE GAESHI | IRIMI | KOKYŪ | KAITEN | UDE GARAMI | KIRI OTOSHI | JIYŪ WAZA | KOKYŪ-HŌ |
 |------------------|-----------|-----------|------------|--------|-----------|------------------|-----------|------------|-------------|-------------|--------------|-----------|------------|
 | SHŌMEN-UCHI      |           |           |            | TACHI  |           |                  |           |            | TACHI       | TACHI       | TACHI        | TACHI     |            |
 | SHŌMEN-UCHI      |           |           |            | SUWARI |           | SUWARI           | SUWARI    |            |             |             |              |           |            |
