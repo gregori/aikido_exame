@@ -34,14 +34,14 @@
 - **Ushiro kaiten ukemi** = queda rolando para trás  
 - **Mae ukemi** = queda para frente  
 - **Mae kaiten ukemi** = queda rolando para frente  
-- **Shukko** = andar de joelhos  
+- **Shikkō** = andar de joelhos  
 - **Kaiten nage ukemi** = queda da projeção rolando  
 
 ## Posturas
 
 - **Seiza** = sentado sobre as pernas
 - **Kiza** = sentado sobre os calcanhares
-- **Zazen** = sentado com as pernas cruzadas  
+- **Agura** = sentado com as pernas cruzadas  
 - **Tachi** = em pé  
 - **Suwari** = ajoelhado  
 - **Mae** = frente  
