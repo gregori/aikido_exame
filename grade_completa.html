@@ -5,85 +5,189 @@
   <title>Tabela de Técnicas de Aikido</title>
 
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      padding: 20px;
+      font-family: 'Inter', Arial, sans-serif;
+      background: #D3D3D3;
+      min-height: 100vh;
+      padding: 36px 24px;
+      margin: 0;
     }
 
     h1 {
       text-align: center;
+      color: #000000;
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin: 0 0 6px;
+      text-shadow: 0 2px 12px rgba(0,0,0,0.5);
     }
+
+    .subtitulo {
+      text-align: center;
+      color: #000000;
+      font-size: 12px;
+      letter-spacing: 1.5px;
+      margin-bottom: 28px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 18px;
+      padding: 24px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 24px 64px rgba(0,0,0,0.45);
+    }
+
+    #filtros {
+      text-align: center;
+      margin-bottom: 22px;
+    }
+
+    #filtros strong {
+      display: block;
+      margin-bottom: 12px;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: #000000;
+    }
+
+    .btn-filtro {
+      border: 2px solid transparent;
+      padding: 7px 18px;
+      margin: 4px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      border-radius: 20px;
+      transition: all 0.18s ease;
+      text-transform: uppercase;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .btn-filtro:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+    }
+
+    .btn-filtro.ativo {
+      border-color: rgba(255,255,255,0.9);
+      box-shadow: 0 0 0 3px rgba(255,255,255,0.2), 0 4px 14px rgba(0,0,0,0.4);
+      transform: translateY(-1px);
+    }
+
+    .btn-todos   { background-color: #6e6e96; color: #ccc; }
+    .btn-amarelo { background-color: #e6d800; color: #1a1500; }
+    .btn-roxo    { background-color: #7b22d4; color: #f0e6ff; }
+    .btn-verde   { background-color: #1f7a49; color: #e2fff1; }
+    .btn-azul    { background-color: #2f5fd4; color: #e6eeff; }
+    .btn-marrom  { background-color: #7a3a0f; color: #ffe8d6; }
+    .btn-preto   { background-color: #1a1a1a; color: #ddd; border-color: #444; }
 
     .table-container {
       overflow-x: auto;
+      border-radius: 10px;
     }
+
+    .table-container::-webkit-scrollbar { height: 6px; }
+    .table-container::-webkit-scrollbar-track { background: rgba(255,255,255,0.06); border-radius: 3px; }
+    .table-container::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 3px; }
 
     table {
       border-collapse: collapse;
       width: 100%;
-      background-color: white;
+      background-color: #ffffff;
       min-width: 1400px;
     }
 
     th, td {
-      border: 1px solid #ccc;
-      padding: 6px;
+      border: 1px solid #e4e7f0;
+      padding: 8px 10px;
       text-align: center;
-      font-size: 12px;
+      font-size: 11px;
       white-space: nowrap;
     }
 
+    thead tr {
+      background: linear-gradient(135deg, #1a1a2e, #0f3460);
+    }
+
     th {
-      background-color: #212121;
-      color: white;
+      color: rgba(255,255,255,0.85);
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 13px 10px;
       position: sticky;
       top: 0;
+      z-index: 1;
+      border-color: rgba(255,255,255,0.08);
     }
 
-    tr:nth-child(even) {
-      background-color: #f9f9f9;
+    th:first-child {
+      font-size: 10px;
+      color: #fff;
+      text-align: left;
+      padding-left: 14px;
     }
 
-    .amarelo {
-      background-color: #FFFF00;
-      color: #000000;
-      font-weight: bold;
-    }
-    .roxo {
-      background-color: #8A2BE2;
-      color: #000000;
-      font-weight: bold;
-    }
-    
-    .verde {
-      background-color: #2E8B57;
-      color: #000000;
-      font-weight: bold;
+    tbody tr:nth-child(odd) {
+      background-color: #ffffff;
     }
 
-    .azul {
-      background-color: #4169E1;
-      color: #000000;
-      font-weight: bold;
+    tbody tr:nth-child(even) {
+      background-color: #f7f8fd;
     }
 
-    .marrom {
-      background-color: #8B4513;
-      color: #000000;
-      font-weight: bold;
+    tbody tr:hover {
+      background-color: #edf0ff !important;
     }
+
+    tbody td:first-child {
+      font-weight: 700;
+      font-size: 11px;
+      color: #1a1a2e;
+      text-align: left;
+      padding-left: 14px;
+      background-color: inherit;
+      border-right: 2px solid #d0d5ea;
+    }
+
+    .amarelo,
+    .roxo,
+    .verde,
+    .azul,
+    .marrom,
+    .preto {
+      border-radius: 5px;
+      font-weight: 700;
+      font-size: 10px;
+    }
+
+    .amarelo { background-color: #ffe500; color: #1a1500; }
+    .roxo    { background-color: #7b22d4; color: #f0e6ff; }
+    .verde   { background-color: #1f7a49; color: #e2fff1; }
+    .azul    { background-color: #2f5fd4; color: #e8eeff; }
+    .marrom  { background-color: #7a3a0f; color: #ffe8d6; }
+    .preto   { background-color: #1a1a1a; color: #e8e8e8; }
 
     .azul-marrom {
-      background: linear-gradient(to right, #4169E1 50%, #8B4513 50%);
-      color: #000000;
-      font-weight: bold;
-    }
-
-    .preto {
-      background-color: #000000;
-      color: #FFFFFF;
-      font-weight: bold;
+      background: linear-gradient(to right, #2f5fd4 50%, #7a3a0f 50%);
+      color: #fff;
+      font-weight: 700;
+      font-size: 10px;
     }
   </style>
 </head>
@@ -91,6 +195,19 @@
 <body>
 
 <h1>Tabela de Técnicas de Aikido</h1>
+<p class="subtitulo">Grade completa de exames — faixas e técnicas</p>
+<div class="card">
+
+<div id="filtros">
+  <strong>Filtrar por graduação:</strong>
+  <button class="btn-filtro btn-todos ativo" onclick="filtrar(null, this)">Todas</button>
+  <button class="btn-filtro btn-amarelo" onclick="filtrar('amarelo', this)">Amarela</button>
+  <button class="btn-filtro btn-roxo"    onclick="filtrar('roxo', this)">Roxa</button>
+  <button class="btn-filtro btn-verde"   onclick="filtrar('verde', this)">Verde</button>
+  <button class="btn-filtro btn-azul"    onclick="filtrar('azul', this)">Azul</button>
+  <button class="btn-filtro btn-marrom"  onclick="filtrar('marrom', this)">Marrom</button>
+  <button class="btn-filtro btn-preto"   onclick="filtrar('preto', this)">Preta</button>
+</div>
 
 <div class="table-container">
 <table>
@@ -354,7 +471,7 @@
       <!--KATA GURUMA --><td class="preto">TACHI</td>
       <!--KOSHI NAGE  --><td class="marrom">TACHI</td>
       <!--JIYŪ WAZA   --><td class="marrom">TACHI</td>
-      <!--KOKYŪ-HŌ    --><td class="amarelo">SUWARI</td>
+      <!--KOKYŪ-HŌ    --><td class="amarelo todas-faixas">SUWARI</td>
     </tr>
 
     <tr>
@@ -542,6 +659,96 @@
   </tbody>
 </table>
 </div>
+</div>
+
+<script>
+  const classesGraduacao = ['amarelo', 'roxo', 'verde', 'azul', 'marrom', 'preto', 'azul-marrom'];
+
+  document.querySelectorAll('td.todas-faixas').forEach(cell => {
+    const classeOriginal = classesGraduacao.find(nomeClasse => cell.classList.contains(nomeClasse));
+    if (classeOriginal) {
+      cell.dataset.classeOriginal = classeOriginal;
+    }
+  });
+
+  function restaurarClasseOriginal(cell) {
+    classesGraduacao.forEach(nomeClasse => cell.classList.remove(nomeClasse));
+    if (cell.dataset.classeOriginal) {
+      cell.classList.add(cell.dataset.classeOriginal);
+    }
+  }
+
+  function filtrar(classe, btnClicado) {
+    // Atualiza botão ativo
+    document.querySelectorAll('.btn-filtro').forEach(b => b.classList.remove('ativo'));
+    if (btnClicado) btnClicado.classList.add('ativo');
+
+    const headerCells = document.querySelectorAll('table thead tr th');
+    const bodyRows    = document.querySelectorAll('table tbody tr');
+
+    if (!classe) {
+      // Mostra tudo
+      headerCells.forEach(th => th.style.display = '');
+      bodyRows.forEach(row => {
+        row.style.display = '';
+        row.querySelectorAll('td').forEach(td => {
+          td.style.display = '';
+          td.style.visibility = '';
+          if (td.classList.contains('todas-faixas')) {
+            restaurarClasseOriginal(td);
+          }
+        });
+      });
+      return;
+    }
+
+    // Inclui colunas da graduação + colunas com células "todas-faixas"
+    const colsVisiveis = new Set([0]);
+    bodyRows.forEach(row => {
+      row.querySelectorAll('td').forEach((cell, idx) => {
+        if (cell.classList.contains(classe) || cell.classList.contains('todas-faixas')) {
+          colsVisiveis.add(idx);
+        }
+      });
+    });
+
+    // Mostra / oculta cabeçalhos
+    headerCells.forEach((th, idx) => {
+      th.style.display = colsVisiveis.has(idx) ? '' : 'none';
+    });
+
+    // Mostra / oculta linhas e células
+    bodyRows.forEach(row => {
+      const cells = row.querySelectorAll('td');
+      let linhaVisivel = false;
+
+      cells.forEach((cell, idx) => {
+        if (colsVisiveis.has(idx)) {
+          cell.style.display = '';
+          if (idx === 0) {
+            cell.style.visibility = '';
+          } else if (cell.classList.contains('todas-faixas')) {
+            // Sempre visível, usando a classe da graduação selecionada
+            cell.style.visibility = '';
+            classesGraduacao.forEach(nomeClasse => cell.classList.remove(nomeClasse));
+            cell.classList.add(classe);
+            linhaVisivel = true;
+          } else if (cell.classList.contains(classe)) {
+            cell.style.visibility = '';
+            linhaVisivel = true;
+          } else {
+            cell.style.visibility = 'hidden';
+          }
+        } else {
+          cell.style.display = 'none';
+          cell.style.visibility = '';
+        }
+      });
+
+      row.style.display = linhaVisivel ? '' : 'none';
+    });
+  }
+</script>
 
 </body>
 </html>
