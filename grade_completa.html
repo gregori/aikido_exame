@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tabela de Técnicas de Aikido</title>
 
   <style>
@@ -97,6 +98,7 @@
 
     .table-container {
       overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
       border-radius: 10px;
     }
 
@@ -141,6 +143,10 @@
       color: #fff;
       text-align: left;
       padding-left: 14px;
+      position: sticky;
+      left: 0;
+      z-index: 3;
+      background: linear-gradient(135deg, #1a1a2e, #0f3460);
     }
 
     tbody tr:nth-child(odd) {
@@ -156,13 +162,25 @@
     }
 
     tbody td:first-child {
+      position: sticky;
+      left: 0;
+      z-index: 2;
       font-weight: 700;
       font-size: 11px;
       color: #1a1a2e;
       text-align: left;
       padding-left: 14px;
-      background-color: inherit;
+      background-color: #ffffff;
       border-right: 2px solid #d0d5ea;
+      box-shadow: 4px 0 8px rgba(15, 52, 96, 0.08);
+    }
+
+    tbody tr:nth-child(even) td:first-child {
+      background-color: #f7f8fd;
+    }
+
+    tbody tr:hover td:first-child {
+      background-color: #edf0ff;
     }
 
     .amarelo,
