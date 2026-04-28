@@ -2,212 +2,140 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tabela de Técnicas de Aikido</title>
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
-    *, *::before, *::after {
-      box-sizing: border-box;
-    }
-
     body {
-      font-family: 'Inter', Arial, sans-serif;
-      background: #D3D3D3;
-      min-height: 100vh;
-      padding: 36px 24px;
-      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      padding: 20px;
     }
 
     h1 {
       text-align: center;
-      color: #000000;
-      font-size: 26px;
-      font-weight: 700;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      margin: 0 0 6px;
-      /* text-shadow: 0 2px 12px rgba(0,0,0,0.5); */
     }
 
-    .subtitulo {
+    .table-container {
+      overflow-x: auto;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background-color: white;
+      min-width: 1400px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 6px;
       text-align: center;
-      color: #000000;
       font-size: 12px;
-      letter-spacing: 1.5px;
-      margin-bottom: 28px;
+      white-space: nowrap;
     }
 
+    th {
+      background-color: #212121;
+      color: white;
+      position: sticky;
+      top: 0;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    .amarelo {
+      background-color: #FFFF00;
+      color: #000000;
+      font-weight: bold;
+    }
+    .roxo {
+      background-color: #8A2BE2;
+      color: #000000;
+      font-weight: bold;
+    }
+    
+    .verde {
+      background-color: #2E8B57;
+      color: #000000;
+      font-weight: bold;
+    }
+
+    .azul {
+      background-color: #4169E1;
+      color: #000000;
+      font-weight: bold;
+    }
+
+    .marrom {
+      background-color: #8B4513;
+      color: #000000;
+      font-weight: bold;
+    }
+
+    .azul-marrom {
+      background: linear-gradient(to right, #4169E1 50%, #8B4513 50%);
+      color: #000000;
+      font-weight: bold;
+    }
+
+    .preto {
+      background-color: #000000;
+      color: #FFFFFF;
+      font-weight: bold;
+    }
+
+    /* Filtros */
     #filtros {
       text-align: center;
-      margin-bottom: 22px;
+      margin-bottom: 20px;
     }
 
     #filtros strong {
       display: block;
-      margin-bottom: 12px;
-      font-size: 10px;
-      font-weight: 600;
-      letter-spacing: 2.5px;
-      text-transform: uppercase;
-      color: #000000;
+      margin-bottom: 10px;
+      font-size: 14px;
     }
 
     .btn-filtro {
       border: 2px solid transparent;
-      padding: 7px 18px;
+      padding: 8px 16px;
       margin: 4px;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.5px;
+      font-size: 13px;
+      font-weight: bold;
       cursor: pointer;
-      border-radius: 20px;
-      transition: all 0.18s ease;
-      text-transform: uppercase;
-      /* box-shadow: 0 2px 8px rgba(0,0,0,0.3); */
+      border-radius: 4px;
+      transition: opacity 0.2s, transform 0.1s;
     }
 
     .btn-filtro:hover {
-      transform: translateY(-2px);
-      /* box-shadow: 0 6px 18px rgba(0,0,0,0.4); */
+      opacity: 0.85;
+      transform: scale(1.05);
     }
 
     .btn-filtro.ativo {
-      border-color: rgba(255,255,255,0.9);
-      /* box-shadow: 0 0 0 3px rgba(255,255,255,0.2), 0 4px 14px rgba(0,0,0,0.4); */
-      transform: translateY(-1px);
+      border-color: #333;
+      box-shadow: 0 0 0 3px rgba(0,0,0,0.35);
     }
 
-    .btn-todos   { background-color: #6e6e96; color: #ccc; }
-    .btn-amarelo { background-color: #f2cb05; color: #1a1500; }
-    .btn-roxo    { background-color: #8d5abf; color: #f0e6ff; }
-    .btn-verde   { background-color: #38a649; color: #e2fff1; }
-    .btn-azul    { background-color: #398cbf; color: #e6eeff; }
-    .btn-marrom  { background-color: #8e6546; color: #ffe8d6; }
-    .btn-preto   { background-color: #3c3c3b; color: #ddd; border-color: #444; }
-
-    .table-container {
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      border-radius: 10px;
+    .btn-todos {
+      background-color: #e0e0e0;
+      color: #000;
     }
 
-    .table-container::-webkit-scrollbar { height: 6px; }
-    .table-container::-webkit-scrollbar-track { background: rgba(255,255,255,0.06); border-radius: 3px; }
-    .table-container::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 3px; }
-
-    table {
-      border-collapse: collapse;
-      width: max-content;
-      background-color: #ffffff;
-    }
-
-    th, td {
-      border: 1px solid #e4e7f0;
-      padding: 8px 10px;
-      text-align: center;
-      font-size: 11px;
-      white-space: nowrap;
-    }
-
-    thead tr {
-      background-color: #808080;
-    }
-
-    th {
-      color: rgba(255,255,255,0.85);
-      font-size: 9px;
-      font-weight: 700;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      padding: 13px 10px;
-      position: sticky;
-      top: 0;
-      z-index: 1;
-      border-color: rgba(255,255,255,0.08);
-    }
-
-    th:first-child {
-      font-size: 10px;
-      color: #fff;
-      text-align: left;
-      padding-left: 14px;
-      width: 120px;
-      max-width: 120px;
-      white-space: normal;
-      overflow-wrap: anywhere;
-      line-height: 1.25;
-      position: sticky;
-      left: 0;
-      z-index: 3;
-      background-color: #808080;
-    }
-
-    tbody tr:nth-child(odd) {
-      background-color: #ffffff;
-    }
-
-    tbody tr:nth-child(even) {
-      background-color: #f7f8fd;
-    }
-
-    tbody tr:hover {
-      background-color: #edf0ff !important;
-    }
-
-    tbody td:first-child {
-      position: sticky;
-      left: 0;
-      z-index: 2;
-      font-weight: 700;
-      font-size: 11px;
-      color: #1a1a2e;
-      text-align: left;
-      padding-left: 14px;
-      width: 120px;
-      max-width: 120px;
-      white-space: normal;
-      overflow-wrap: anywhere;
-      line-height: 1.25;
-      background-color: #ffffff;
-      border-right: 2px solid #d0d5ea;
-      /* box-shadow: 4px 0 8px rgba(15, 52, 96, 0.08); */
-    }
-
-    tbody tr:nth-child(even) td:first-child {
-      background-color: #d1d1d1;
-    }
-
-    tbody tr:hover td:first-child {
-      background-color: #edf0ff;
-    }
-
-    .amarelo,
-    .roxo,
-    .verde,
-    .azul,
-    .marrom,
-    .preto {
-      border-radius: 5px;
-      font-weight: 700;
-      font-size: 10px;
-    }
-
-    .amarelo { background-color: #f2cb05; color: #1a1500; }
-    .roxo    { background-color: #8d5abf; color: #1a1500; }
-    .verde   { background-color: #38a649; color: #1a1500; }
-    .azul    { background-color: #398cbf; color: #1a1500; }
-    .marrom  { background-color: #8e6546; color: #1a1500; }
-    .preto   { background-color: #3c3c3b; color: #e8e8e8; }
-
+    .btn-amarelo { background-color: #FFFF00; color: #000; }
+    .btn-roxo    { background-color: #8A2BE2; color: #fff; }
+    .btn-verde   { background-color: #2E8B57; color: #fff; }
+    .btn-azul    { background-color: #4169E1; color: #fff; }
+    .btn-marrom  { background-color: #8B4513; color: #fff; }
+    .btn-preto   { background-color: #000000; color: #fff; }
   </style>
 </head>
 
 <body>
 
 <h1>Tabela de Técnicas de Aikido</h1>
-<p class="subtitulo">Grade completa de exames — faixas e técnicas</p>
 
 <div id="filtros">
   <strong>Filtrar por graduação:</strong>
@@ -672,22 +600,6 @@
 </div>
 
 <script>
-  const classesGraduacao = ['amarelo', 'roxo', 'verde', 'azul', 'marrom', 'preto', 'azul-marrom'];
-
-  document.querySelectorAll('td.todas-faixas').forEach(cell => {
-    const classeOriginal = classesGraduacao.find(nomeClasse => cell.classList.contains(nomeClasse));
-    if (classeOriginal) {
-      cell.dataset.classeOriginal = classeOriginal;
-    }
-  });
-
-  function restaurarClasseOriginal(cell) {
-    classesGraduacao.forEach(nomeClasse => cell.classList.remove(nomeClasse));
-    if (cell.dataset.classeOriginal) {
-      cell.classList.add(cell.dataset.classeOriginal);
-    }
-  }
-
   function filtrar(classe, btnClicado) {
     // Atualiza botão ativo
     document.querySelectorAll('.btn-filtro').forEach(b => b.classList.remove('ativo'));
@@ -704,13 +616,21 @@
         row.querySelectorAll('td').forEach(td => {
           td.style.display = '';
           td.style.visibility = '';
-          if (td.classList.contains('todas-faixas')) {
-            restaurarClasseOriginal(td);
-          }
+          td.style.backgroundColor = '';
+          td.style.color = '';
         });
       });
       return;
     }
+
+    const cores = {
+      amarelo: { bg: '#FFFF00', color: '#000' },
+      roxo:    { bg: '#8A2BE2', color: '#fff' },
+      verde:   { bg: '#2E8B57', color: '#fff' },
+      azul:    { bg: '#4169E1', color: '#fff' },
+      marrom:  { bg: '#8B4513', color: '#fff' },
+      preto:   { bg: '#000000', color: '#fff' },
+    };
 
     // Inclui colunas da graduação + colunas com células "todas-faixas"
     const colsVisiveis = new Set([0]);
@@ -737,21 +657,29 @@
           cell.style.display = '';
           if (idx === 0) {
             cell.style.visibility = '';
+            cell.style.backgroundColor = '';
+            cell.style.color = '';
           } else if (cell.classList.contains('todas-faixas')) {
-            // Sempre visível, usando a classe da graduação selecionada
+            // Sempre visível, pintada com a cor da graduação selecionada
             cell.style.visibility = '';
-            classesGraduacao.forEach(nomeClasse => cell.classList.remove(nomeClasse));
-            cell.classList.add(classe);
+            cell.style.backgroundColor = cores[classe].bg;
+            cell.style.color = cores[classe].color;
             linhaVisivel = true;
           } else if (cell.classList.contains(classe)) {
             cell.style.visibility = '';
+            cell.style.backgroundColor = '';
+            cell.style.color = '';
             linhaVisivel = true;
           } else {
             cell.style.visibility = 'hidden';
+            cell.style.backgroundColor = '';
+            cell.style.color = '';
           }
         } else {
           cell.style.display = 'none';
           cell.style.visibility = '';
+          cell.style.backgroundColor = '';
+          cell.style.color = '';
         }
       });
 
